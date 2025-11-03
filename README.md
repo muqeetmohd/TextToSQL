@@ -10,28 +10,7 @@ This project implements an intelligent SQL agent that allows users to query Worl
 
 ### Advanced AI Components
 
-#### 1. **Few-Shot Learning**
-- Semantic similarity-based example selection using FAISS vector database
-- Dynamic retrieval of relevant query patterns from example database
-- Context-aware prompt engineering with top-K example selection
-
-#### 2. **Retrieval-Augmented Generation (RAG)**
-- Custom TF-IDF search pipeline for indicator discovery
-- Sentence-level query decomposition for improved matching
-- Cosine similarity-based ranking of relevant database indicators
-
-#### 3. **SQL Agent with Function Calling**
-- LangChain-based SQL agent with OpenAI function calling
-- Intelligent query generation from natural language
-- Database schema-aware query construction
-- Error recovery and query refinement
-
-#### 4. **Multi-Stage Summarization**
-- Two-model approach: GPT-4o for queries, GPT-4o-mini for summaries
-- Context-preserving response generation
-- Token-optimized summarization pipeline
-
-### Production-Grade Features
+####Features:
 
 #### **Configuration Management**
 - Environment-based configuration with `.env` support
@@ -194,13 +173,10 @@ TOP_N_INDICATORS=5
 DEFAULT_LIMIT=150
 ```
 
-## 📊 Performance Optimization
 
 - **Token Usage**: Monitored via OpenAI callbacks
 - **Search Speed**: TF-IDF provides <100ms indicator search
 - **Model Selection**: GPT-4o for complex queries, GPT-4o-mini for summaries
-- **Caching**: FAISS vector store for fast semantic search
-- **Query Limits**: Configurable result limits to prevent over-fetching
 
 ## 🔐 Security
 
@@ -236,18 +212,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-## 👨‍💻 Author
 
-**Your Name**
-- GitHub: [@AnnasMustafaDev](https://github.com/AnnasMustafaDev)
-- LinkedIn: [Annas Mustafa](https://linkedin.com/in/annas-mustafa)
-
-## 🙏 Acknowledgments
-
-- World Bank for providing comprehensive economic data
-- OpenAI for GPT models
-- LangChain community for excellent documentation
-- FAISS for efficient vector similarity search
 
 ## 📈 Project Complexity
 
