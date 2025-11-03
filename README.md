@@ -1,4 +1,4 @@
-# World Bank SQL Agent 🌍
+# SQL Agent - Query data using Natural Language
 
 An advanced AI-powered natural language interface for querying World Bank databases using LangChain, OpenAI, and semantic search techniques.
 
@@ -280,6 +280,3 @@ This project demonstrates **senior-level AI engineering skills** including:
 - Cost-performance optimization
 - Parallel processing pipelines
 
----
-
-⭐ **Star this repository** if you find it useful!
